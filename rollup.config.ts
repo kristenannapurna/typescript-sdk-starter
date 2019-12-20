@@ -42,7 +42,7 @@ export default [
     input: `demo-app/src/scripts.js`,
     output: [{ file: `demo-app/dist/scripts.js`, format: 'es' }],
     watch: {
-      include: 'demo-app/src'
+      include: 'demo-app/src/**'
     },
     plugins: [resolve(), commonjs(), babel({ exclude: 'node_modules/**' })]
   }

@@ -3,4 +3,4 @@
 // ...
 
 const someMethod = () => true
-export const CoolSDK = { someMethod: someMethod }
+export const CoolSDK = { someMethod: someMethod, isThisWorking: () => console.log('it works')}
